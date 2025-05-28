@@ -96,18 +96,25 @@
     align-items: center;
 
     border: 1px solid red;
+
+    min-height: 480px;
 }
 
 .title{
     font-size: 36px;
     font-weight: 900;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 140px;
 }
 
 .cards-container{
     display: flex;
     justify-content: center;
 
-    border: 1px solid #663399;
     gap: 75px;
 }
 
@@ -117,14 +124,13 @@
     align-items: center;
     justify-content: center;
 
-    text-align: center;
+    gap: 5px;
 
-    width: 150px;
-    height: 200px;
+    text-align: center;
+    width: 170px;
+    font-weight: 500;
 
     color: #808080;
-
-    border: 1px solid salmon;
 }
 
 
@@ -133,7 +139,11 @@
     border-radius: 18px;
 
     width: 170px;
-    height: 130px;
+    height: 170px;
+}
+
+.ilustration-text{
+    width: 150px;
 }
 
 /*FOOTER*/
