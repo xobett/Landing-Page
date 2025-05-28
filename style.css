@@ -6,6 +6,13 @@
 
 /*HEADER*/
 
+.header{
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
     font-weight: 900;
     font-size: 24px;
@@ -23,13 +30,12 @@
     justify-content: space-between;
 
     padding: 0% 12%;
+    margin-bottom: 90px;
 
     height: 50px;
 }
 
 .header-home-container{
-    height: 500px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +50,7 @@
     display: flex;
     flex-direction: column;
 
+    gap: 10px;
 }
 
 .image-placeholder{
@@ -52,7 +59,7 @@
     align-items: center;
     background-color: gray;
 
-    height: 245px;
+    height: 240px;
     width: 550px;
 
     color: white;
@@ -64,9 +71,6 @@
     color: #f9faf8;
 }
 
-.secondary-text{
-    margin-bottom: auto;
-}
 
 .button{
     background-color: #3882F6;
@@ -102,6 +106,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    min-height: 100px;
+    color: white;
 }
 
 /*GROUP SELECTORS*/
